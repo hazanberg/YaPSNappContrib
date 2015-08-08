@@ -1,363 +1,622 @@
-/* 
-   Localizable.strings
-   YaPSNapp
+nassern51 في 12:11 م ‎8/‎8/‎2015
+/*  
+2    Localizable.strings 
+3    YaPSNapp 
+4 
+ 
+5    Created by Hazanberg on 08/05/15. 
+6    Copyright 2015 Hazanberg. All rights reserved. 
+7  */ 
+8 "Locale" = "ar_AR"; 
+9 "Short_Locale" = "ar"; 
+10 /** Locale Units **/ 
+11 "dateFormat" = "dd/MM/yyyy HH:mm"; 
+12 "dateShortFormat" = "dd/MM/yy"; 
+13 "dateShortFormatFullYear" = "dd/MM/yyyy"; 
+14 "dateShortFormatWithHour" = "dd/MM/yy\nHH:mm"; 
+15 
+ 
+16 "minuteUnits" = "دقيقة"; 
+17 "hourUnits" = "ساعة)"; 
+18 "dayUnits" = "يوم"; 
+19 "weekUnits" = "اسبوغ"; 
+20 "monthUnits" = "شهر"; 
+21 "yearUnits" = "سنة"; 
+22 //ERRORS 
+23 "OP_AUTHFRIENDS_SERVER_ERROR" = "شبكة الأندرويد غير 
 
-   Created by Hazanberg on 08/05/15.
-   Copyright 2015 Hazanberg. All rights reserved.
- */
-"Locale" = "ar_AR";
-"Short_Locale" = "ar";
-/** Locale Units **/
-"dateFormat" = "dd/MM/yyyy HH:mm";
-"dateShortFormat" = "dd/MM/yy";
-"dateShortFormatFullYear" = "dd/MM/yyyy";
-"dateShortFormatWithHour" = "dd/MM/yy\nHH:mm";
+متوفرة حالياً. نرجوا المحاولة لاحقاً."; 
+24 "OP_AUTHFRIENDS_AUTHENTICATION_ERROR" = "اسم المستخدم 
 
-"minuteUnits" = "دقيقة";
-"hourUnits" = "ساعة)";
-"dayUnits" = "يوم";
-"weekUnits" = "اسبوغ";
-"monthUnits" = "شهر";
-"yearUnits" = "سنة";
-//ERRORS
-"OP_AUTHFRIENDS_SERVER_ERROR" = "شبكة البلاي ستاشين غير متوفرة حالياً. نرجوا المحاولة لاحقاً.";
-"OP_AUTHFRIENDS_AUTHENTICATION_ERROR" = "اسم المستخدم او كلمة المرور غير صحيحة";
-"OP_AUTHFRIENDS_PARSEDATA_ERROR" = "حدث خطأ عندما حاولنا جمع معلوماتك من البلاي ستاشين. نرجوا المحاولة لاحقاً.";
-"OP_AUTHFRIENDS_MAINTENANCE_ERROR" = "شبكة البلاي ستاشن في حالة الصيانة. نرجوا المحاولة لاحقاً.";
-"ERROR_FRIENDS_LIST_PARSING_XML" = "لم نستطع جمع قائمة اصدقائك من شبكة البلاي ستاشين. ارجوا المحاولة لاحقاً.";
-"ERROR_GAMES_LIST_PARSING_XML"="هناك خطأ في شبكة البلاي ستاشين. نرجوا المحاولة لاحقاً.";
-"UNKNOW_ERROR" = "حدث خطأ. نرجوا المحاولة مرة أخرى.";
-"NODATAENABLE" = "يجب عليك الأتصال بشبكة وايفاي او خلوي.";
-/** Settings Controller */
-"SettLanguage" = "اللغة";
-"SettMailTo" = "yapsnapp@drakfly.com";
-"SettMailSubject" = "YaPSNapp support (arabic)";
-"SettMailBody" = "<br/><br/><b>YaPSNapp الأصدار:</b>%@<br/><b>الجهاز:</b>%@<br/><b>OS:</b>%@<br/><b>UID</b>:%@";
-"SettNoEmail" = "لم يتم اعداد بريدك الألكتروني على جهازك. نرجوا منك الذهاب إلى الأعدادات وتفعيل بريدك الألكتروني.";
-"SettLoading" = "جاري التحميل...";
-/** Trophies View Controller */
-"TrophMinutesUnits" = "د.";
-"TrophHoursUnits" = "س.";
-"TrophDaysUnits" = "ي.";
-"TrophWeeksUnits" = "ا.";
-"TrophMonthsUnits" = "ش.";
-"TrophYearsUnits" = "سنة.";
-"TrophyGuideGoogleURL" = "شرح التروفي \"%@\" %@ intitle:Guide -intitle:DLC";
-"TrophyGuideYouTubeURL" = "http://m.youtube.com/results؟search_query=Trophy%20----&gl=AR&search_type=&uploaded=";
-"Cancel" = "Cancel";
-/* Sync errors */
-"OP_AUTHFRIENDS_EULA_VALIDATION_ERROR" = "يجب عليك القبول بالقوانين الجديدة على شبكة البلاي ستاشين. هل تريد الذهاب إلى موقع البلاي ستاشين لقبولها الآن؟";
-"EULAWebSiteURL" = "https://store.playstation.com/external/index.vm؟returnURL=https://secure.eu.playstation.com/sign-in/confirmation/&locale=%@";
-"noAdBannerSubTitle" = "أشتري الأصدار الكامل لأخفاء هذا الأعلان";
-/* Login */
-"LogErrorAccountAlready" = "الحساب بأسم %@ مستخدم";
-"LogErrorAccountAlreadyDesc" = "قم بأستخدام اسم جديد (أيميل). أذا كنت تحاول تغيير كلمة المرور، يجب عليك الذهاب إلى صفحة اعدادات المستخدم.";
-"SettPushDesc" = "التنبيه عندما يقوم أصدقائك بتغيير حالاتهم. تنبيه ! هذه الميزة تتطلب منك الدخول وتحديث صفحة التطبيق كل 24 ساعة. (متوفرة فقط مع الأصدار الكامل)";
-"SettPushDescNoPush" = "التنبيه عندما يقوم أصدقائك بتغيير حالاتهم. هذه الميزة غير متوفرة حالياً. نحن نجرب هذه الميزة حالياً وسوف تتوفر عندما نكمل تجريبها. (متوفرة فقط مع الأصدار الكامل)";
-"SettPushDescNoPushTemp" = "التنبيه عندما يقوم أصدقائك بتغغير حالاتهم. ممنوع الدخول. (متوفرة فقط مع الأصدار الكامل)";
-"SettPushNews" = "الأخبار";
-"SettPushFriends" = "حالات الأصدقاء";
-"%d days ago" = "قبل %d يوم";
-"%d hours ago" = "قبل %d ساعة";
-"%d minutes ago" = "قبل %d قيقة";
-"%d months ago" = "قبل %d شهر";
-"%d seconds ago" = "قبل %d ثانية";
-"%d weeks ago" = "قبل %d اسبوع";
-"%d years ago" = "قبل %d سنة";
-"A minute ago" = "قبل دقيقة";
-"An hour ago" = "قبل ساعة";
-"Just now" = "الآن";
-"Last month" = "قبل شهر";
-"Last week" = "قبل اسبوع";
-"Last year" = "قبل سنة";
-"Yesterday" = "الأمس";
-"1 year ago" = "قبل سنة";
-"1 month ago" = "قبل شهر واحد";
-"1 week ago" = "قبل اسبوع واحد";
-"1 day ago" = "قبل يوم واحد";
-"This morning" = "في الصباح";
-"This afternoon" = "في العصر";
-"Today" = "اليوم";
-"This week" = "في هذا الأسبوع";
-"This month" = "في هذا الشهر";
-"This year" = "في هذه السنة";
-/* Custom theme interface */
-"SettCustThemeQuestionTitle" = "كيف تريد ان تكون خلفية التطبيق؟";
-"SettCustThemeTakePhoto" = "إلتقط صورة";
-"SettCustThemeChoosePhoto" = "أستخدم صورة";
-"SettCustThemePhotoTitle" = "تعديل الصورة";
-"SettCustThemePhotoRetake" = "أعادة أخذ الصورة";
-"SettCustThemePhotoUse" = "أستخدم";
-"SettCustThemeChoosePhotoChoose" = "أختار";
-"SettCustThemeSetDefault" = "أرجاع الأعدادات الطبيعية";
-//vNEW - UPPERCASE
-"LOGIN_CreateAccount" = "أتصل بشبكة البلاي ستاشين";
-"LOGIN_EMail" = "ايميل البلاي ستاشين";
-"LOGIN_Password" = "كلمة المرور";
-"LOGIN_Login" = "الدخول";
-"LOGIN_SubTitle" = "قم بأدخال معلومات الدخول الخاصة بحسابك مع البلاي ستاشين";
-"LOGIN_SubTitle2" = "(نفضل أستخدام الوايفاي)";
-"LOGIN_Warn" = "لا نحفظ كلمة مرورك على سيرفرنا. لمعلومات أكثر، اقرأ الأسئلة الشائعة";
-"LOGIN_Connecting" = "جاري محاولة الأتصال...";
-"LOGIN_UPDATING_PSNID" = "جاري التحديث %@ (%lu/%lu)";
-"LOGIN_UPDATING" = "تحديث الملفات الشخصية (%lu/%lu)";
-"TITLEBAR_LASTUPDATE" = "اخر تحديث: %@";
-"UPDATING" = "جاري التحديث...";
-"UPDATING_AUTH" = "جاري التحديث...";
-"LAST_CONNECT" = "اخر أتصال كان قبل %@ %@";
-"LAST_TIME" = "قبل %@ %@";
-"FRIEND_HUDFAVADDED" = "%@\n تم الأضافة في المفضلة";
-"FRIEND_HUDFAVREMOVED" = "%@\n تم الأزالة من المفضلة";
-"FRIEND_NO_ACCOUNT_SUBTITLE" = "لا يوجد حساب متصل";
-"FRIEND_NO_ACCOUNT_REFRESH_ERROR" = "لا يوجد حساب مختار. \
-ارجوا منك بالأتصال على شبكة البلاي ستاشين";
-"FRIEND_NO_DATA" = "لا يوجد أصدقاء :(";
-"FRIEND_SELECTED_FILTERS" = "الفلتر/ـات المستخدمة";
-"HOMESCREEN_TITLE" = "البلاي ستاشن في جيبك";
-"HOMESCREEN_SUBTITLE" = "ابقى في إتصال مع أصدقائك، تابع حالاتهم، جديد التروفي، المراسلة، متابعة وقراءة دليل الألعاب";
-"HOMESCREEN_CREATE_ACCOUNT" = "أتصل بشبكة البلاي ستاشين";
-"HOMESCREEN_GETTING_STARTED" = "للبداية";
-"HOMESCREEN_FOOTER" = "YaPSNapp لا يعمل مع Sony® او اي شركة اخرى. الألعاب / التروفي و الصور ملكية لشركة Sony®. اي عملة تجارية, شعار او اسم في هذا التطبيق هو ملكية صانعها";
-"FRIEND_SETTINGS_TITLE_AUTOSYNC" = "التحديث الأوتماتيكي. عند البدء";
-"FRIEND_SETTINGS_DISPLAY_FAV" = "المفضلة فقط";
-"FRIEND_SETTINGS_DISPLAY_LEAD" = "الأوائل . معلومات";
-"FRIEND_SETTINGS_TITLE_FILTERS" = "الترتيب على حسب الحالة";
-"FRIEND_SETTINGS_FILTER_ALL" = "الكل";
-"FRIEND_SETTINGS_FILTER_ONLINE" = "المتصلين";
-"FRIEND_SETTINGS_FILTER_OFFLINE" = "الغير متصلين";
-"MENU_LAST_SYNCED" = "تم التحديث";
-"LEVEL" = "المستوى";
-"BRONZE" = "برونز";
-"SILVER" = "فضي";
-"GOLD" = "ذهبي";
-"PLATINUM" = "بلاتين";
-"TOTAL" = "المجموع";
-"GAMES" = "الألعاب";
-"TROPHIES" = "التروفي";
-"RANKING" = "الرتبة";
-"MENU_CURRENT_ACCOUNT" = "الحساب الحالي هو:";
-"MENU_BTN_SWITCH_ACCOUNT" = "تغيير";
-"MENU_BTN_LOGOUT" = "تسجيل الخروج";
-"MENU_CURRENT_NO_ACCOUNT" = "غير موجود";
-"MENU_BTN_CREATE_ACCOUNT" = "إتصل";
-"MENU_DISCONNECT_TITLE" = "";
-"MENU_DISCONNECT_SINGLE" = "الغاء ربط هذا الحساب";
-"MENU_DISCONNECT_MULTIPLE" = "الغاء ربط كل الحسابات";
-"MENU_ADD_ACCOUNT" = "اضافة حساب";
-"MENU_ITEM_FRIENDS" = "قائمة الأصدقاء";
-"MENU_ITEM_NOTIF" = "الأشعارات";
-"MENU_ITEM_MESSAGE" = "الرسائل";
-"MENU_ITEM_SETTINGS" = "الأعدادات";
-"MENU_ITEM_FAQ" = "الأسئلة الشائعة";
-"MENU_ITEM_BUY_FULLVERSION" = "الأصدار الكامل";
-"MENU_ITEM_TWITTER" = "تابعنا!";
-"MENU_ITEM_SUPPORT" = "راسلنا";
-"MENU_SEND_EMAIL_FAILED" = "حصل خطأ عندما حاولنا إرسال رسالتك";
-"MENU_ITEM_APPSTORE" = "قم بتقييم هذا التطبيق";
-"GAME_LAST_PLAYED" = "اخر لعبة %@";
-"GAME_SETTINGS_TITLE_AUTOSYNC" = "تحديث الألعاب اوتماتيكياً";
-"GAME_SETTINGS_TITLE_FILTERS" = "أظهار";
-"GAME_SETTINGS_FILTER_ALL" = "الكل";
-"GAME_SETTINGS_FILTER_PS3" = "PS3";
-"GAME_SETTINGS_FILTER_VITA" = "PSVITA";
-"GAME_SETTINGS_FILTER_PS4" = "PS4";
-"GAME_SETTINGS_TITLE_SORT" = "الترتيب حسب";
-"GAME_SETTINGS_SORT_RECENT" = "الأجدد";
-"GAME_SETTINGS_SORT_RECENT_DESC" = "اخر لعبة";
-"GAME_SETTINGS_SORT_ALPHA" = "أبجدياً";
-"GAME_SETTINGS_SORT_ALPHA_DESC" = "الأسم";
-"GAME_SETTINGS_SORT_TROPHIES" = "التروفي";
-"GAME_SETTINGS_SORT_TROPHIES_DESC" = "ترتيب على حسب عدد التروفي";
-"GAME_SETTINGS_SORT_PERCENT" = "النسبة";
-"GAME_SETTINGS_SORT_PERCENT_DESC" = "ترتيب على حسب النسبة";
-"GAME_NO_DATA" = "لا يوجد لعبة للأظهار :(";
-"GAME_NO_DATA_FOR_PROFILE" = "لم تقم بتحديث ملفك. يجب عليك تحديث ملفك يدوياً لتفعيل التحديث الأوتماتيكي";
-"GAME_NO_DATA_FOR_PRIVATE" = "خصوصية اللاعب لا تسمح بأظهار قائمة اللعابه للكل";
-"GAME_SELECTED_FILTERS" = "الفلتر/ـات";
-"LAST_TIME_MINUTES" = "قبل %@ دقيق";
-"LAST_TIME_HOURS" = "قبل %@ ساعة";
-"LAST_TIME_DAYS" = "قبل %@ يوم";
-"LAST_TIME_WEEKS" = "قبل %@ اسبوع";
-"LAST_TIME_MONTH" = "قبل %@ شهر";
-"LAST_TIME_YEAR" = "قبل %@ سنة";
-"TROPHIES_NO_DATA" = "لا يوجد تروفي للأظهار :(";
-"TROPHIES_NO_DATA_FOR_PROFILE" = "التروفي الخاصة بهذه اللعبة لم يتم تحميلها ! يجب عليك تحميلها يدوياً";
-"TROPHIES_SELECTED_FILTERS" = "الفلتر/ـات";
-"TROPHIES_SETTINGS_FILTER_ALL" = "الكل";
-"TROPHIES_SETTINGS_FILTER_EARNED" = "لديك";
-"TROPHIES_SETTINGS_FILTER_NOT_EARNED" = "ليس لديك";
-"TROPHIES_SETTINGS_TITLE_SPOILERS" = "أظهار السبويلر";
-"TROPHIES_SETTINGS_TITLE_FILTERS" = "فلتر على حسب";
-"TROPHIES_SETTINGS_TITLE_SORT" = "الترتيب على حسب";
-"TROPHIES_SETTINGS_SORT_RECENT" = "الجديد";
-"TROPHIES_SETTINGS_SORT_RECENT_DESC" = "الترتيب على حسب اخر تروفي حصلت عليها";
-"TROPHIES_SETTINGS_SORT_ALPHA" = "أبجدياً";
-"TROPHIES_SETTINGS_SORT_ALPHA_DESC" = "على حسب الأسم";
-"TROPHIES_SETTINGS_SORT_TROPHIES" = "نوع التروفي";
-"TROPHIES_SETTINGS_SORT_TROPHIES_DESC" = "نوع التروفي (برونز, فضي, ...)";
-"TROPHIES_SETTINGS_SORT_PSN" = "الترتيب الأعتيادي";
-"TROPHIES_SETTINGS_SORT_PSN_DESC" = "جعل الترتيب مثل ترتيب شبكة بلاي ستاشين";
-"TROPHIES_SETTINGS_SORT_RARITY" = "الندرة";
-"TROPHIES_SETTINGS_SORT_RARITY_DESC"= "الترتيب على حسب عدد الناس التي حصلت على التروفي";
-"TROPHIES_GUIDE_NOGUIDE" = "لا يوجد دليل لهذا التروفي";
-"PS3trophies" = "Playstationtrophies.org";
-"PS3thc" = "PSTHC.fr";
-"laPS4" = "laPS4.com";
-"TROPHIES_EARNED_SINCE" = "لديك منذ %@";
-"TROPHIES_NOT_EARNED" = "ليس لديك";
-"TROPHIES_DETAILS_SEARCHON" = "البحث على التروفي قي";
-"TROPHIES_DETAILS_HIDDEN" = "مخفي";
-"ME" = "انا";
-"NEW" = "★";
-"IMG_EDITOR_CROP" = "القطع";
-"IMG_EDITOR_CANCEL" = "الغاء";
-"IMG_EDITOR_MENU_FILTERS" = "الفلتر/ـات";
-"IMG_EDITOR_MENU_EFECT" = "التأثيرات";
-"IMG_EDITOR_MENU_BLUR" = "التلطيخ";
-"IMG_EDITOR_MENU_ADJUST" = "التعديلات";
-"NOTIF_NOTIF_TITLE" = "الأشعارات";
-"NOTIF_MESSAGE_TITLE" = "الرسالة";
-"SETTINGS_TITLE" = "الأعدادات";
-"SETTINGS_ITEM_DISPLAY" = "أظهار";
-"SETTINGS_ITEM_LANGUAGE" = "اللغة";
-"SETTINGS_ITEM_PUSH_NEWS" = "دفع الأخبار";
-"SETTINGS_ITEM_PUSH_FRIEND" = "دفع حالات الأصدقاء";
-"SETTINGS_ITEM_INAPP_PURCHASE" = "شراء \"الأصدار الكامل\"";
-"SETTINGS_ITEM_INAPP_PURCHASE_COMPLETED" = "\"الأصدار الكامل\" يعمل";
-"SETTINGS_ITEM_INAPP_RESTORE" = "استعادة المشترى";
-"SETTINGS_LINK_APP_STORE" = "التقييم على محل التطبيقات";
-"01.SETTINGS_SECTION_PUSH" = "الأشعارات";
-"02.SETTINGS_SECTION_DISPLAY" = "الأظهار";
-"03.SETTINGS_SECTION_INAPP" = "شرائات داخل التطبيق";
-"04.SETTINGS_SECTION_LINKS" = "أخرى";
-"UNKNOWN" = "غير معروف";
-"LEADERBOARD_TITLE" = "قائمة المتصدرين";
-"LEADERBOARD_FRIENDS" = "مخلص (الأصدقاء)";
-"LEADERBOARD_SECTION_LEVEL" = "رتبة المستوى";
-"LEADERBOARD_SECTION_TROPHIES" = "التروفي";
-"LEADERBOARD_NO_DATA" = "لا يوجد معلومات أصدقاء :P";
-"LEADERBOARD_GAME_TROPHIES" = "تروفي اللعبة";
-"NOTIF_NO_DATA" = "لا يوجد شيء هنا :P";
-"MESSAGE_NO_DATA" = "تريد ان ترسل \n a رسالة ؟ :S";
-"MESSAGE_NO_DATA_PURCHASE" = "هذا الميزة متوفرة فقط مع \n\"الأصدار الكامل\" فقط :S";
-"MESSAGE_NEW_MESSAGE_TITLE" = "لا يوجد رسالة";
-"MESSAGE_TYPE_PSNID" = "اكتب اسم المستخدم";
-"MESSAGE_SEND" = "ارسل";
-"MESSAGE_PLACEHOLDER" = "اكتب رسالة...";
-"MESSAGE_SENDING" = "ارسال...";
-"MESSAGE_NOT_SENT" = "لم تصل";
-"MESSAGE_MENU_PLUS" = "المزيد...";
-"MESSAGE_PLUS_ACTION_TITLE" = "خيارات الرسالة \n(الحذف يحذف المعلومات من التطبيق فقط)";
-"MESSAGE_PLUS_ACTION_DELETE" = "حذف";
-"MESSAGE_PLUS_ACTION_SEND_AGAIN" = "ارسال مرة أخرى";
-//NETWORK ERRORS
-"ERROR_MALFORMED_OAUTH_TOKEN" = "خطأ داخلي في التطبيق. ارجوا المحاولة لاحقاً [ERROR_MALFORMED_OAUTH_TOKEN]";
-"ERROR_CREATE_OAUTH_TOKEN" = "خطأ داخلي في التطبيق. ارجوا المحاولة لاحقاً. [ERROR_CREATE_OAUTH_TOKEN]";
-"ERROR_REFRESH_OAUTH_TOKEN" = "خطأ داخلي في التطبيق. ارجوا المحاولة لاحقاً. [ERROR_REFRESH_OAUTH_TOKEN]";
-"ERROR_RETRIEVING_PROFILE" = "خطأ داخلي في التطبيق. ارجوا المحاولة لاحقاً. [ERROR_RETRIEVING_PROFILE]";
-"ERROR_FULL_LOGIN" = "خطأ داخلي في التطبيق. ارجوا المحاولة لاحقاً. [ERROR_LOGIN]";
-"ERROR_RETRIEVING_GAME" = "خطأ حصل أثناء تحميل اللعبة. [ERROR_RETRIEVING_GAME]";
-"ERROR_RETRIEVING_TROPHIES" = "خطأ حصل أثناء تحميل التروفي. [ERROR_RETRIEVING_TROPHIES]";
-"ERROR_RETRIEVING_MESSAGES" = "خطأ حصل أثناء تحميل الرسالة. [ERROR_RETRIEVING_MESSAGES]";
-"ERROR_SENDING_MESSAGE" = "خطأ حصل أثناء أرسال الرسالة. [ERROR_SENDING_MESSAGE]";
-"ERROR_SIGNIN_MAINTENANCE" = "شبكة البلاي ستاشين في الصيانة حالياً. [ERROR_SIGNIN_MAINTENANCE]";
-"ERROR_SIGNIN_RESET_PASSWORD" = "يجب عليك تغيير كلمة مرورك. [ERROR_SIGNIN_RESET_PASSWORD]";
-"ERROR_SIGNIN_INCORRECT_PASSWORD" = "اسم المستخدم او كلمة المرور خطأ. [ERROR_SIGNIN_INCORRECT_PASSWORD]";
-"ERROR_URL_RETRIEVING_PROFILE" = "خطأ داخلي في التطبيق. ارجوا المحاولة لاحقاً. [ERROR_URL_RETRIEVING_PROFILE]";
-"ERROR_URL_RETRIEVING_TROPHY" = "خطأ داخلي في التطبيق. ارجوا المحاولة لاحقاً. [ERROR_URL_RETRIEVING_TROPHY]";
-"ERROR_URL_RETRIEVING_MESSAGING" = "خطأ داخلي في التطبيق. ارجوا المحاولة لاحقاً. [ERROR_URL_RETRIEVING_MESSAGING]";
-//RATING APP
-"RATE_APP_TITLE" = "تقييم YaPSNapp";
-"RATE_APP_DESCRIPTION" = "إذا عجبك YaPSNapp، هل يمكنك تقييمنا؟ لن يستغرق تقييمك أكثر من دقيقة. شكراً لدعمك!";
-"RATE_APP_DESCRIPTION_UPDATE" = "هذا الأصدار الجديد من YaPSNapp, هل لديك لحظة لتقييمه؟ لن يستغرق هذا أكثر من دقيقة. شكراً لدعمك!";
-"RATE_APP_CANCEL" = "لا, شكراً";
-"RATE_APP_RATE" = "التقييم الآن";
-"RATE_APP_REMIND" = "   ذكرني لاحقاً";
-//IN-APP PURCHASE
-"INAPP_FULL_TITLE" = "أشتري الأصدار الكامل";
-"INAPP_UNLOCK_TITLE" = "أفتح هذه الميزة";
-"INAPP_REQUEST_TITLE" = "لقد وصلت حدك من الطلبات";
-"INAPP_FULL_REQUEST_DESCRIPTION" = "لقد وصلت حدك من طلبات التحديث اليوم (%lu). اشتري 'الأصدار الكامل' بـ $0.99 (0,99€) لأزالة الحدود.\n  ・أحصل على طلبات بدون حدود\n  ・ أخفي الأعلانات\n  ・ أستخدم أكثر من حساب\n  ・ بريد البلاي ستاشين\n  ・ اشعارات عند تغيير الحالات من أصدقائك";
-"INAPP_FULL_DESCRIPTION" = "اشتري الأصدار الكامل بـ $0.99 (0,99€).\n\n  ・أحصل على طلبات بدون حدود\n  ・ أخفي الأعلانات\n  ・ أستخدم أكثر من حساب\n  ・ بريد البلاي ستاشين\n  ・ اشعارات عند تغيير الحالات من أصدقائك";
-"INAPP_FULL_CANCEL" = "لا شكراً";
-"INAPP_FULL_OK" = "   أشتري";
-"InAppAlertFullVersionWaitingTitle" = "التأكد من محل التطلبيقات";
-"InAppAlertFullVersionWaitingDesc" = "أرجوا الأنتظار...";
-"InAppAlertCancelBtn" = "الغاء";
-"InAppReviewTitle" = "لقد قمت بشرائه من قبل (مجاناً)";
-"InAppReviewMessage" = "تم تصديق جهازك.\n ";
-"InAppReviewDismiss" = "تمام";
-"InAppParentalTitle" = "الشراء من داخل التطبيق مغلق";
-"InAppParentalMessage" = "تأكد من أعدادتك في الرقابة الأبوية وحاول مرة أخرى";
-"InAppParentalDismiss" = "تم";
-"INAPP_PURCHASED" = "شكراً !!! :)";
-"INAPP_CANCELLED" = "تم الغاء شرائك :(";
-"INAPP_RESTORE_ERROR" = "لم نستطع استرجاع ما اشتريته";
-"NO_AD_BANNER" = "لا يوجد اعلان لأظهاره...";
-"INTRO_PANEL1_TITLE" = "<span class=\"title\"><strong>اتصل</strong><br/>بحسابات البلاي ستاشين</span>";
-"INTRO_PANEL1_DESC" = "<span class=\"desc\">استخدم معلومات دخولك على البلاي ستاشين&reg;</span><br/><span class=\"note\">(لا نحفظ كلمة مرورك على سيرفرنا. نحن فقط نرسلها إلى Sony&reg; لأظهار ملعوماتك</span>";
-"INTRO_PANEL2_TITLE" = "<span class=\"title\"><strong>تابع</strong> أصدقائك</span>";
-"INTRO_PANEL2_DESC" = "<span class=\"desc\">من متصل ؟ من يلعب ؟<br/>قم بأظهار كل اللعابهم والتروفي الي حصلوا عليها</span><br/><span class=\"note\"></span>";
-"INTRO_PANEL3_TITLE" = "<span class=\"title\"><strong>الحركة</strong> للتحديث</span>";
-"INTRO_PANEL3_DESC" = "<span class=\"desc\">في كل صفحة كل ما عليك فعله هو التحديث عن طريق السحب<br/>اسحب القائمة إلى الأعلى للتحديث</span><br/><span class=\"note\"></span>";
-"INTRO_PANEL4_TITLE" = "<span class=\"title\"><strong>الأختصارات</strong> السريعة</span>";
-"INTRO_PANEL4_DESC" = "<span class=\"desc\">في قائمة أصدقائك تستطيع التحريك الى اليمين واليسار للتنقل بينهم<ul><li>لأضافتهم للمفضلة</li><li>لأرسال رسالة<span class=\"note\"> (فقط للأصدار الكامل)</li></ul></span>";
-"INTRO_SKIP" = "التخطي";
-"INTRO_GO" = "أذهب !";
-"TrophyGuideGoogleURLValue" = "http://www.google.com";
-"◷ %%d%@s" = "◷ %%d%@s";
-"◷ %%d%@m" = "◷ %%d%@m";
-"◷ %%d%@h" = "◷ %%d%@h";
-"◷ %%d%@d" = "◷ %%d%@d";
-"◷ %%d%@w" = "◷ %%d%@w";
-"◷ %%d%@mo" = "◷ %%d%@mo";
-"◷ %%d%@yr" = "◷ %%d%@yr";
-"MESSAGE_ADD_MEMBER" = "الأعضاء(s) (%lu)";
-//NETWORK ERRORS
-"ERROR_SIGNIN_NEW_TERMS" = "يجب عليك الموافقة على القوانين الجديدة. اضغط لتحويلك إلى القوانين.";
-"NEW_TERMS_REDIRECT" = "جاري تحويلك إلى شبكة البلاي ستاشين ...";
-"LEADERBOARD_SETTINGS_TITLE_FILTERS" = "الترتيب على حسب";
-"LEADERBOARD_SETTINGS_DISPLAY_FAV" = "المفضلة فقط";
-"MENU_ITEM_MY_PROFILE" = "ملفي";
-"SettPushMessage" = "الرسائل";
-"MESSAGE_LOAD_EARLIER" = "تحميل الرسائل القديمة";
-"HTTPOTHER" = "حصل خطأ. ارجوا المحاولة مرة أخرى.";
-"CLOSE" = "أغلاق";
-//v2.5
-"SETTINGS_ITEM_THEME" = "الشكل";
-"THEME_CUSTOMIZE" = "اعدادت شكل التطبيق";
-"THEME_APPLY" = "تطبيق";
-"PSN_OFFLINE" = "⚠︎ PSN";
-"THEME_PREVIEWS" = "المشاهدة قبل التطبيق";
-"CUSTOMIZE_THEME_DESCRIPTION" = "لتعديل هذا الشكل، ثم أضغط على 'تخصيص' . تستطيع اختيار اي لون تريده.";
-"CUSTOMIZE_THEME" = "تخصيص";
-"SAVE_THEME" = "حفظ";
-"THEME_SECTION_COLORS" = "اللوان";
-"THEME_SECTION_ICONS" = "الأيقونات";
-"NETWORK_TROPHIES_GUIDE" = "ارجوا الأنتظار...";
-"NETWORK_TROPHIES_GUIDE_SUCCESS" = "تم حفظ الدليل :)";
-"NETWORK_TROPHIES_GUIDE_FAILURE" = "لم يتم حفظ الدليل :(";
-"THEME_DOWNLOADED_WITH_FAILURE" = "لم يتم تحميل الشكل بنجاح. ارجوا المحاولة لاحقاً.";
-"MESSAGE_ATTACHMENT_LABEL" = "1 ملحق.";
-"MESSAGE_PICKER_ADD_COMMENT" = "اضافة تعليق";
-"MESSAGE_PICKER_TAKE_PHOTO" = "أخذ صورة";
-"MESSAGE_PICKER_TAKE_FROM_LIBRARY" = "مكتبة الصور";
-"MESSAGE_PICKER_SEND_PHOTO" = "ارسال %lu صورة";
-"MESSAGE_PICKER_SEND_PHOTOS" = "ارسال %lu صور";
-"TITLEBAR_LASTMESSAGE" = "اخر رسالة %@";
-"TITLEBAR_X_MEMBERS" = "(%lu) اعضاء";
-"MESSAGE_NEW_MESSAGE_SUBTITLE" = "اختر عضو او أكثر";
-"%lu of %lu" = "%lu من %lu";
-"MESSAGE_SENDING_MULTIPLE" = "ارسال %lu من %lu...";
-"MESSAGE_ATTACHMENTS" = "الملحقات";
-"PROFILE_OPTIONS" = "الأعدادات";
-"ATTACHMENT" = "الصور";
-"GAME_SETTINGS_FILTER_PLATONLY" = "البلاتين";
-"GAME_SETTINGS_FILTER_100ONLY" = "100%";
-"GAME_SETTINGS_FILTER_NOTCOMPLETE" = "غير مكتمل";
-"LOGIN_EDIT_PASSWORD" = "كلمة مرورك لا تعمل.";
-"LOGIN_EditAccount" = "تعديل حسابك";
-"LOGIN_EditSubTitle" = "ارجوا منك ادخال كلمة مرور حسابك الخاصة بالبلاي ستاشين";
-"LOGIN_EditSubTitle2" = "";
-"SettCustThemeSaveRoll" = "احفظ في الكاميرا";
-"SettCustThemeSaved" = "تم";
+او كلمة المرور غير صحيحة"; 
+25 "OP_AUTHFRIENDS_PARSEDATA_ERROR" = "حدث خطأ عندما 
+
+حاولنا جمع معلوماتك من البلاي ستاشين. نرجوا المحاولة 
+
+لاحقاً."; 
+26 "OP_AUTHFRIENDS_MAINTENANCE_ERROR" = "شبكة البلاي 
+
+ستاشن في حالة الصيانة. نرجوا المحاولة لاحقاً."; 
+27 "ERROR_FRIENDS_LIST_PARSING_XML" = "لم نستطع جمع 
+
+قائمة اصدقائك من شبكة الأندرويد. ارجوا المحاولة لاحقاً."; 
+28 "ERROR_GAMES_LIST_PARSING_XML"="هناك خطأ في شبكة 
+
+الأندرويد. نرجوا المحاولة لاحقاً."; 
+29 "UNKNOW_ERROR" = "حدث خطأ. نرجوا المحاولة مرة أخرى."; 
+30 "NODATAENABLE" = "يجب عليك الأتصال بشبكة وايفاي او 
+
+خلوي."; 
+31 /** Settings Controller */ 
+32 "SettLanguage" = "اللغة"; 
+33 "SettMailTo" = "yapsnapp@drakfly.com"; 
+34 "SettMailSubject" = "YaPSNapp support (arabic)"; 
+35 "SettMailBody" = "<br/><br/><b>YaPSNapp الأصدار:</b>
+
+%@<br/><b>الجهاز:</b>%@<br/><b>OS:</b>
+
+%@<br/><b>UID</b>:%@"; 
+36 "SettNoEmail" = "لم يتم اعداد بريدك الألكتروني على 
+
+جهازك. نرجوا منك الذهاب إلى الأعدادات وتفعيل بريدك 
+
+الألكتروني."; 
+37 "SettLoading" = "جاري التحميل..."; 
+38 /** Trophies View Controller */ 
+39 "TrophMinutesUnits" = "د."; 
+40 "TrophHoursUnits" = "س."; 
+41 "TrophDaysUnits" = "ي."; 
+42 "TrophWeeksUnits" = "ا."; 
+43 "TrophMonthsUnits" = "ش."; 
+44 "TrophYearsUnits" = "سنة."; 
+45 "TrophyGuideGoogleURL" = "شرح التروفي \"%@\" %@ 
+
+intitle:Guide -intitle:DLC"; 
+46 "TrophyGuideYouTubeURL" = 
+
+"http://m.youtube.com/results؟search_query=Trophy%20
+
+----&gl=AR&search_type=&uploaded="; 
+47 "Cancel" = "Cancel"; 
+48 /* Sync errors */ 
+49 "OP_AUTHFRIENDS_EULA_VALIDATION_ERROR" = "يجب عليك 
+
+القبول بالقوانين الجديدة على شبكة الأندرويد. هل تريد 
+
+الذهاب إلى موقع الأندرويد لقبولها الآن؟"; 
+50 "EULAWebSiteURL" = "https://Google 
+
+play.Android.com/external/index.vm
+
+؟returnURL=https://secure.eu.Android.com/sign-
+
+in/confirmation/&locale=%@"; 
+51 "noAdBannerSubTitle" = "أشتري الأصدار الكامل لأخفاء هذا 
+
+الأعلان"; 
+52 /* Login */ 
+53 "LogErrorAccountAlready" = "الحساب بأسم %@ مستخدم"; 
+54 "LogErrorAccountAlreadyDesc" = "قم بأستخدام اسم جديد 
+
+(أيميل). أذا كنت تحاول تغيير كلمة المرور، يجب عليك 
+
+الذهاب إلى صفحة اعدادات المستخدم."; 
+55 "SettPushDesc" = "التنبيه عندما يقوم أصدقائك بتغيير 
+
+حالاتهم. تنبيه ! هذه الميزة تتطلب منك الدخول وتحديث صفحة 
+
+التطبيق كل 24 ساعة. (متوفرة فقط مع الأصدار الكامل)"; 
+56 "SettPushDescNoPush" = "التنبيه عندما يقوم أصدقائك 
+
+بتغيير حالاتهم. هذه الميزة غير متوفرة حالياً. نحن نجرب هذه 
+
+الميزة حالياً وسوف تتوفر عندما نكمل تجريبها. (متوفرة فقط 
+
+مع الأصدار الكامل)"; 
+57 "SettPushDescNoPushTemp" = "التنبيه عندما يقوم 
+
+أصدقائك بتغغير حالاتهم. ممنوع الدخول. (متوفرة فقط مع 
+
+الأصدار الكامل)"; 
+58 "SettPushNews" = "الأخبار"; 
+59 "SettPushFriends" = "حالات الأصدقاء"; 
+60 "%d days ago" = "قبل %d يوم"; 
+61 "%d hours ago" = "قبل %d ساعة"; 
+62 "%d minutes ago" = "قبل %d قيقة"; 
+63 "%d months ago" = "قبل %d شهر"; 
+64 "%d seconds ago" = "قبل %d ثانية"; 
+65 "%d weeks ago" = "قبل %d اسبوع"; 
+66 "%d years ago" = "قبل %d سنة"; 
+67 "A minute ago" = "قبل دقيقة"; 
+68 "An hour ago" = "قبل ساعة"; 
+69 "Just now" = "الآن"; 
+70 "Last month" = "قبل شهر"; 
+71 "Last week" = "قبل اسبوع"; 
+72 "Last year" = "قبل سنة"; 
+73 "Yesterday" = "الأمس"; 
+74 "1 year ago" = "قبل سنة"; 
+75 "1 month ago" = "قبل شهر واحد"; 
+76 "1 week ago" = "قبل اسبوع واحد"; 
+77 "1 day ago" = "قبل يوم واحد"; 
+78 "This morning" = "في الصباح"; 
+79 "This afternoon" = "في العصر"; 
+80 "Today" = "اليوم"; 
+81 "This week" = "في هذا الأسبوع"; 
+82 "This month" = "في هذا الشهر"; 
+83 "This year" = "في هذه السنة"; 
+84 /* Custom theme interface */ 
+85 "SettCustThemeQuestionTitle" = "كيف تريد ان تكون 
+
+خلفية التطبيق؟"; 
+86 "SettCustThemeTakePhoto" = "إلتقط صورة"; 
+87 "SettCustThemeChoosePhoto" = "أستخدم صورة"; 
+88 "SettCustThemePhotoTitle" = "تعديل الصورة"; 
+89 "SettCustThemePhotoRetake" = "أعادة أخذ الصورة"; 
+90 "SettCustThemePhotoUse" = "أستخدم"; 
+91 "SettCustThemeChoosePhotoChoose" = "أختار"; 
+92 "SettCustThemeSetDefault" = "أرجاع الأعدادات 
+
+الطبيعية"; 
+93 //vNEW - UPPERCASE 
+94 "LOGIN_CreateAccount" = "أتصل بشبكة الأندرويد"; 
+95 "LOGIN_EMail" = "ايميل الأندرويد"; 
+96 "LOGIN_Password" = "كلمة المرور"; 
+97 "LOGIN_Login" = "الدخول"; 
+98 "LOGIN_SubTitle" = "قم بأدخال معلومات الدخول الخاصة 
+
+بحسابك مع الأندرويد"; 
+99 "LOGIN_SubTitle2" = "(نفضل أستخدام الوايفاي)"; 
+100 "LOGIN_Warn" = "لا نحفظ كلمة مرورك على سيرفرنا. 
+
+لمعلومات أكثر، اقرأ الأسئلة الشائعة"; 
+101 "LOGIN_Connecting" = "جاري محاولة الأتصال..."; 
+102 "LOGIN_UPDATING_PSNID" = "جاري التحديث %@ (%lu/
+
+%lu)"; 
+103 "LOGIN_UPDATING" = "تحديث الملفات الشخصية (%lu/
+
+%lu)"; 
+104 "TITLEBAR_LASTUPDATE" = "اخر تحديث: %@"; 
+105 "UPDATING" = "جاري التحديث..."; 
+106 "UPDATING_AUTH" = "جاري التحديث..."; 
+107 "LAST_CONNECT" = "اخر أتصال كان قبل %@ %@"; 
+108 "LAST_TIME" = "قبل %@ %@"; 
+109 "FRIEND_HUDFAVADDED" = "%@\n تم الأضافة في المفضلة"; 
+110 "FRIEND_HUDFAVREMOVED" = "%@\n تم الأزالة من 
+
+المفضلة"; 
+111 "FRIEND_NO_ACCOUNT_SUBTITLE" = "لا يوجد حساب متصل"; 
+112 "FRIEND_NO_ACCOUNT_REFRESH_ERROR" = "لا يوجد حساب 
+
+مختار. \ 
+113 ارجوا منك بالأتصال على شبكة الأندرويد"; 
+114 "FRIEND_NO_DATA" = "لا يوجد أصدقاء :("; 
+115 "FRIEND_SELECTED_FILTERS" = "الفلتر/ـات المستخدمة"; 
+116 "HOMESCREEN_TITLE" = "البلاي ستاشن في جيبك"; 
+117 "HOMESCREEN_SUBTITLE" = "ابقى في إتصال مع أصدقائك، 
+
+تابع حالاتهم، جديد التروفي، المراسلة، متابعة وقراءة دليل 
+
+الألعاب"; 
+118 "HOMESCREEN_CREATE_ACCOUNT" = "أتصل بشبكة الأندرويد"; 
+119 "HOMESCREEN_GETTING_STARTED" = "للبداية"; 
+120 "HOMESCREEN_FOOTER" = "YaPSNapp لا يعمل مع Sony® او 
+
+اي شركة اخرى. الألعاب / التروفي و الصور ملكية لشركة 
+
+Sony®. اي عملة تجارية, شعار او اسم في هذا التطبيق هو 
+
+ملكية صانعها"; 
+121 "FRIEND_SETTINGS_TITLE_AUTOSYNC" = "التحديث 
+
+الأوتماتيكي. عند البدء"; 
+122 "FRIEND_SETTINGS_DISPLAY_FAV" = "المفضلة فقط"; 
+123 "FRIEND_SETTINGS_DISPLAY_LEAD" = "الأوائل . معلومات"; 
+124 "FRIEND_SETTINGS_TITLE_FILTERS" = "الترتيب على حسب 
+
+الحالة"; 
+125 "FRIEND_SETTINGS_FILTER_ALL" = "الكل"; 
+126 "FRIEND_SETTINGS_FILTER_ONLINE" = "المتصلين"; 
+127 "FRIEND_SETTINGS_FILTER_OFFLINE" = "الغير متصلين"; 
+128 "MENU_LAST_SYNCED" = "تم التحديث"; 
+129 "LEVEL" = "المستوى"; 
+130 "BRONZE" = "برونز"; 
+131 "SILVER" = "فضي"; 
+132 "GOLD" = "ذهبي"; 
+133 "PLATINUM" = "بلاتين"; 
+134 "TOTAL" = "المجموع"; 
+135 "GAMES" = "الألعاب"; 
+136 "TROPHIES" = "التروفي"; 
+137 "RANKING" = "الرتبة"; 
+138 "MENU_CURRENT_ACCOUNT" = "الحساب الحالي هو:"; 
+139 "MENU_BTN_SWITCH_ACCOUNT" = "تغيير"; 
+140 "MENU_BTN_LOGOUT" = "تسجيل الخروج"; 
+141 "MENU_CURRENT_NO_ACCOUNT" = "غير موجود"; 
+142 "MENU_BTN_CREATE_ACCOUNT" = "إتصل"; 
+143 "MENU_DISCONNECT_TITLE" = ""; 
+144 "MENU_DISCONNECT_SINGLE" = "الغاء ربط هذا الحساب"; 
+145 "MENU_DISCONNECT_MULTIPLE" = "الغاء ربط كل 
+
+الحسابات"; 
+146 "MENU_ADD_ACCOUNT" = "اضافة حساب"; 
+147 "MENU_ITEM_FRIENDS" = "قائمة الأصدقاء"; 
+148 "MENU_ITEM_NOTIF" = "الأشعارات"; 
+149 "MENU_ITEM_MESSAGE" = "الرسائل"; 
+150 "MENU_ITEM_SETTINGS" = "الأعدادات"; 
+151 "MENU_ITEM_FAQ" = "الأسئلة الشائعة"; 
+152 "MENU_ITEM_BUY_FULLVERSION" = "الأصدار الكامل"; 
+153 "MENU_ITEM_TWITTER" = "تابعنا!"; 
+154 "MENU_ITEM_SUPPORT" = "راسلنا"; 
+155 "MENU_SEND_EMAIL_FAILED" = "حصل خطأ عندما حاولنا 
+
+إرسال رسالتك"; 
+156 "MENU_ITEM_APPGoogle play" = "قم بتقييم هذا 
+
+التطبيق"; 
+157 "GAME_LAST_PLAYED" = "اخر لعبة %@"; 
+158 "GAME_SETTINGS_TITLE_AUTOSYNC" = "تحديث الألعاب 
+
+اوتماتيكياً"; 
+159 "GAME_SETTINGS_TITLE_FILTERS" = "أظهار"; 
+160 "GAME_SETTINGS_FILTER_ALL" = "الكل"; 
+161 "GAME_SETTINGS_FILTER_PS3" = "PS3"; 
+162 "GAME_SETTINGS_FILTER_VITA" = "PSVITA"; 
+163 "GAME_SETTINGS_FILTER_PS4" = "PS4"; 
+164 "GAME_SETTINGS_TITLE_SORT" = "الترتيب حسب"; 
+165 "GAME_SETTINGS_SORT_RECENT" = "الأجدد"; 
+166 "GAME_SETTINGS_SORT_RECENT_DESC" = "اخر لعبة"; 
+167 "GAME_SETTINGS_SORT_ALPHA" = "أبجدياً"; 
+168 "GAME_SETTINGS_SORT_ALPHA_DESC" = "الأسم"; 
+169 "GAME_SETTINGS_SORT_TROPHIES" = "التروفي"; 
+170 "GAME_SETTINGS_SORT_TROPHIES_DESC" = "ترتيب على حسب 
+
+عدد التروفي"; 
+171 "GAME_SETTINGS_SORT_PERCENT" = "النسبة"; 
+172 "GAME_SETTINGS_SORT_PERCENT_DESC" = "ترتيب على حسب 
+
+النسبة"; 
+173 "GAME_NO_DATA" = "لا يوجد لعبة للأظهار :("; 
+174 "GAME_NO_DATA_FOR_PROFILE" = "لم تقم بتحديث ملفك. 
+
+يجب عليك تحديث ملفك يدوياً لتفعيل التحديث الأوتماتيكي"; 
+175 "GAME_NO_DATA_FOR_PRIVATE" = "خصوصية اللاعب لا تسمح 
+
+بأظهار قائمة اللعابه للكل"; 
+176 "GAME_SELECTED_FILTERS" = "الفلتر/ـات"; 
+177 "LAST_TIME_MINUTES" = "قبل %@ دقيق"; 
+178 "LAST_TIME_HOURS" = "قبل %@ ساعة"; 
+179 "LAST_TIME_DAYS" = "قبل %@ يوم"; 
+180 "LAST_TIME_WEEKS" = "قبل %@ اسبوع"; 
+181 "LAST_TIME_MONTH" = "قبل %@ شهر"; 
+182 "LAST_TIME_YEAR" = "قبل %@ سنة"; 
+183 "TROPHIES_NO_DATA" = "لا يوجد تروفي للأظهار :("; 
+184 "TROPHIES_NO_DATA_FOR_PROFILE" = "التروفي الخاصة 
+
+بهذه اللعبة لم يتم تحميلها ! يجب عليك تحميلها يدوياً"; 
+185 "TROPHIES_SELECTED_FILTERS" = "الفلتر/ـات"; 
+186 "TROPHIES_SETTINGS_FILTER_ALL" = "الكل"; 
+187 "TROPHIES_SETTINGS_FILTER_EARNED" = "لديك"; 
+188 "TROPHIES_SETTINGS_FILTER_NOT_EARNED" = "ليس لديك"; 
+189 "TROPHIES_SETTINGS_TITLE_SPOILERS" = "أظهار 
+
+السبويلر"; 
+190 "TROPHIES_SETTINGS_TITLE_FILTERS" = "فلتر على حسب"; 
+191 "TROPHIES_SETTINGS_TITLE_SORT" = "الترتيب على حسب"; 
+192 "TROPHIES_SETTINGS_SORT_RECENT" = "الجديد"; 
+193 "TROPHIES_SETTINGS_SORT_RECENT_DESC" = "الترتيب على 
+
+حسب اخر تروفي حصلت عليها"; 
+194 "TROPHIES_SETTINGS_SORT_ALPHA" = "أبجدياً"; 
+195 "TROPHIES_SETTINGS_SORT_ALPHA_DESC" = "على حسب 
+
+الأسم"; 
+196 "TROPHIES_SETTINGS_SORT_TROPHIES" = "نوع التروفي"; 
+197 "TROPHIES_SETTINGS_SORT_TROPHIES_DESC" = "نوع 
+
+التروفي (برونز, فضي, ...)"; 
+198 "TROPHIES_SETTINGS_SORT_PSN" = "الترتيب الأعتيادي"; 
+199 "TROPHIES_SETTINGS_SORT_PSN_DESC" = "جعل الترتيب مثل 
+
+ترتيب شبكة بلاي ستاشين"; 
+200 "TROPHIES_SETTINGS_SORT_RARITY" = "الندرة"; 
+201 "TROPHIES_SETTINGS_SORT_RARITY_DESC"= "الترتيب على 
+
+حسب عدد الناس التي حصلت على التروفي"; 
+202 "TROPHIES_GUIDE_NOGUIDE" = "لا يوجد دليل لهذا 
+
+التروفي"; 
+203 "PS3trophies" = "Androidtrophies.org"; 
+204 "PS3thc" = "PSTHC.fr"; 
+205 "laPS4" = "laPS4.com"; 
+206 "TROPHIES_EARNED_SINCE" = "لديك منذ %@"; 
+207 "TROPHIES_NOT_EARNED" = "ليس لديك"; 
+208 "TROPHIES_DETAILS_SEARCHON" = "البحث على التروفي 
+
+قي"; 
+209 "TROPHIES_DETAILS_HIDDEN" = "مخفي"; 
+210 "ME" = "انا"; 
+211 "NEW" = "★"; 
+212 "IMG_EDITOR_CROP" = "القطع"; 
+213 "IMG_EDITOR_CANCEL" = "الغاء"; 
+214 "IMG_EDITOR_MENU_FILTERS" = "الفلتر/ـات"; 
+215 "IMG_EDITOR_MENU_EFECT" = "التأثيرات"; 
+216 "IMG_EDITOR_MENU_BLUR" = "التلطيخ"; 
+217 "IMG_EDITOR_MENU_ADJUST" = "التعديلات"; 
+218 "NOTIF_NOTIF_TITLE" = "الأشعارات"; 
+219 "NOTIF_MESSAGE_TITLE" = "الرسالة"; 
+220 "SETTINGS_TITLE" = "الأعدادات"; 
+221 "SETTINGS_ITEM_DISPLAY" = "أظهار"; 
+222 "SETTINGS_ITEM_LANGUAGE" = "اللغة"; 
+223 "SETTINGS_ITEM_PUSH_NEWS" = "دفع الأخبار"; 
+224 "SETTINGS_ITEM_PUSH_FRIEND" = "دفع حالات الأصدقاء"; 
+225 "SETTINGS_ITEM_INAPP_PURCHASE" = "شراء \"الأصدار 
+
+الكامل\""; 
+226 "SETTINGS_ITEM_INAPP_PURCHASE_COMPLETED" = "\"الأصدار 
+
+الكامل\" يعمل"; 
+227 "SETTINGS_ITEM_INAPP_REGoogle play" = "استعادة 
+
+المشترى"; 
+228 "SETTINGS_LINK_APP_Google play" = "التقييم على محل 
+
+التطبيقات"; 
+229 "01.SETTINGS_SECTION_PUSH" = "الأشعارات"; 
+230 "02.SETTINGS_SECTION_DISPLAY" = "الأظهار"; 
+231 "03.SETTINGS_SECTION_INAPP" = "شرائات داخل التطبيق"; 
+232 "04.SETTINGS_SECTION_LINKS" = "أخرى"; 
+233 "UNKNOWN" = "غير معروف"; 
+234 "LEADERBOARD_TITLE" = "قائمة المتصدرين"; 
+235 "LEADERBOARD_FRIENDS" = "مخلص (الأصدقاء)"; 
+236 "LEADERBOARD_SECTION_LEVEL" = "رتبة المستوى"; 
+237 "LEADERBOARD_SECTION_TROPHIES" = "التروفي"; 
+238 "LEADERBOARD_NO_DATA" = "لا يوجد معلومات أصدقاء :P"; 
+239 "LEADERBOARD_GAME_TROPHIES" = "تروفي اللعبة"; 
+240 "NOTIF_NO_DATA" = "لا يوجد شيء هنا :P"; 
+241 "MESSAGE_NO_DATA" = "تريد ان ترسل \n a رسالة ؟ :S"; 
+242 "MESSAGE_NO_DATA_PURCHASE" = "هذا الميزة متوفرة فقط 
+
+مع \n\"الأصدار الكامل\" فقط :S"; 
+243 "MESSAGE_NEW_MESSAGE_TITLE" = "لا يوجد رسالة"; 
+244 "MESSAGE_TYPE_PSNID" = "اكتب اسم المستخدم"; 
+245 "MESSAGE_SEND" = "ارسل"; 
+246 "MESSAGE_PLACEHOLDER" = "اكتب رسالة..."; 
+247 "MESSAGE_SENDING" = "ارسال..."; 
+248 "MESSAGE_NOT_SENT" = "لم تصل"; 
+249 "MESSAGE_MENU_PLUS" = "المزيد..."; 
+250 "MESSAGE_PLUS_ACTION_TITLE" = "خيارات الرسالة \n(
+
+الحذف يحذف المعلومات من التطبيق فقط)"; 
+251 "MESSAGE_PLUS_ACTION_DELETE" = "حذف"; 
+252 "MESSAGE_PLUS_ACTION_SEND_AGAIN" = "ارسال مرة أخرى"; 
+253 //NETWORK ERRORS 
+254 "ERROR_MALFORMED_OAUTH_TOKEN" = "خطأ داخلي في 
+
+التطبيق. ارجوا المحاولة لاحقاً 
+
+[ERROR_MALFORMED_OAUTH_TOKEN]"; 
+255 "ERROR_CREATE_OAUTH_TOKEN" = "خطأ داخلي في التطبيق. 
+
+ارجوا المحاولة لاحقاً. [ERROR_CREATE_OAUTH_TOKEN]"; 
+256 "ERROR_REFRESH_OAUTH_TOKEN" = "خطأ داخلي في التطبيق. 
+
+ارجوا المحاولة لاحقاً. [ERROR_REFRESH_OAUTH_TOKEN]"; 
+257 "ERROR_RETRIEVING_PROFILE" = "خطأ داخلي في التطبيق. 
+
+ارجوا المحاولة لاحقاً. [ERROR_RETRIEVING_PROFILE]"; 
+258 "ERROR_FULL_LOGIN" = "خطأ داخلي في التطبيق. ارجوا 
+
+المحاولة لاحقاً. [ERROR_LOGIN]"; 
+259 "ERROR_RETRIEVING_GAME" = "خطأ حصل أثناء تحميل 
+
+اللعبة. [ERROR_RETRIEVING_GAME]"; 
+260 "ERROR_RETRIEVING_TROPHIES" = "خطأ حصل أثناء تحميل 
+
+التروفي. [ERROR_RETRIEVING_TROPHIES]"; 
+261 "ERROR_RETRIEVING_MESSAGES" = "خطأ حصل أثناء تحميل 
+
+الرسالة. [ERROR_RETRIEVING_MESSAGES]"; 
+262 "ERROR_SENDING_MESSAGE" = "خطأ حصل أثناء أرسال 
+
+الرسالة. [ERROR_SENDING_MESSAGE]"; 
+263 "ERROR_SIGNIN_MAINTENANCE" = "شبكة الأندرويد في 
+
+الصيانة حالياً. [ERROR_SIGNIN_MAINTENANCE]"; 
+264 "ERROR_SIGNIN_RESET_PASSWORD" = "يجب عليك تغيير كلمة 
+
+مرورك. [ERROR_SIGNIN_RESET_PASSWORD]"; 
+265 "ERROR_SIGNIN_INCORRECT_PASSWORD" = "اسم المستخدم او 
+
+كلمة المرور خطأ. [ERROR_SIGNIN_INCORRECT_PASSWORD]"; 
+266 "ERROR_URL_RETRIEVING_PROFILE" = "خطأ داخلي في 
+
+التطبيق. ارجوا المحاولة لاحقاً. 
+
+[ERROR_URL_RETRIEVING_PROFILE]"; 
+267 "ERROR_URL_RETRIEVING_TROPHY" = "خطأ داخلي في 
+
+التطبيق. ارجوا المحاولة لاحقاً. 
+
+[ERROR_URL_RETRIEVING_TROPHY]"; 
+268 "ERROR_URL_RETRIEVING_MESSAGING" = "خطأ داخلي في 
+
+التطبيق. ارجوا المحاولة لاحقاً. 
+
+[ERROR_URL_RETRIEVING_MESSAGING]"; 
+269 //RATING APP 
+270 "RATE_APP_TITLE" = "تقييم YaPSNapp"; 
+271 "RATE_APP_DESCRIPTION" = "إذا عجبك YaPSNapp، هل 
+
+يمكنك تقييمنا؟ لن يستغرق تقييمك أكثر من دقيقة. شكراً 
+
+لدعمك!"; 
+272 "RATE_APP_DESCRIPTION_UPDATE" = "هذا الأصدار الجديد 
+
+من YaPSNapp, هل لديك لحظة لتقييمه؟ لن يستغرق هذا أكثر من 
+
+دقيقة. شكراً لدعمك!"; 
+273 "RATE_APP_CANCEL" = "لا, شكراً"; 
+274 "RATE_APP_RATE" = "التقييم الآن"; 
+275 "RATE_APP_REMIND" = "   ذكرني لاحقاً"; 
+276 //IN-APP PURCHASE 
+277 "INAPP_FULL_TITLE" = "أشتري الأصدار الكامل"; 
+278 "INAPP_UNLOCK_TITLE" = "أفتح هذه الميزة"; 
+279 "INAPP_REQUEST_TITLE" = "لقد وصلت حدك من الطلبات"; 
+280 "INAPP_FULL_REQUEST_DESCRIPTION" = "لقد وصلت حدك من 
+
+طلبات التحديث اليوم (%lu). اشتري 'الأصدار الكامل' بـ 
+
+$0.99 (0,99€) لأزالة الحدود.\n  ・أحصل على طلبات بدون 
+
+حدود\n  ・ أخفي الأعلانات\n  ・ أستخدم أكثر من حساب\n  ・ 
+
+بريد الأندرويد\n  ・ اشعارات عند تغيير الحالات من أصدقائك"; 
+281 "INAPP_FULL_DESCRIPTION" = "اشتري الأصدار الكامل بـ 
+
+$0.99 (0,99€).\n\n  ・أحصل على طلبات بدون حدود\n  ・ أخفي 
+
+الأعلانات\n  ・ أستخدم أكثر من حساب\n  ・ بريد الأندرويد\n  ・ 
+
+اشعارات عند تغيير الحالات من أصدقائك"; 
+282 "INAPP_FULL_CANCEL" = "لا شكراً"; 
+283 "INAPP_FULL_OK" = "   أشتري"; 
+284 "InAppAlertFullVersionWaitingTitle" = "التأكد من محل 
+
+التطلبيقات"; 
+285 "InAppAlertFullVersionWaitingDesc" = "أرجوا 
+
+الأنتظار..."; 
+286 "InAppAlertCancelBtn" = "الغاء"; 
+287 "InAppReviewTitle" = "لقد قمت بشرائه من قبل (
+
+مجاناً)"; 
+288 "InAppReviewMessage" = "تم تصديق جهازك.\n "; 
+289 "InAppReviewDismiss" = "تمام"; 
+290 "InAppParentalTitle" = "الشراء من داخل التطبيق 
+
+مغلق"; 
+291 "InAppParentalMessage" = "تأكد من أعدادتك في الرقابة 
+
+الأبوية وحاول مرة أخرى"; 
+292 "InAppParentalDismiss" = "تم"; 
+293 "INAPP_PURCHASED" = "شكراً !!! :)"; 
+294 "INAPP_CANCELLED" = "تم الغاء شرائك :("; 
+295 "INAPP_REGoogle play_ERROR" = "لم نستطع استرجاع ما 
+
+اشتريته"; 
+296 "NO_AD_BANNER" = "لا يوجد اعلان لأظهاره..."; 
+297 "INTRO_PANEL1_TITLE" = "<span class=\"title
+
+\"><strong>اتصل</strong><br/>بحسابات الأندرويد</span>"; 
+298 "INTRO_PANEL1_DESC" = "<span class=\"desc\">استخدم 
+
+معلومات دخولك على الأندرويد&reg;</span><br/><span class=
+
+\"note\">(لا نحفظ كلمة مرورك على سيرفرنا. نحن فقط نرسلها 
+
+إلى Sony&reg; لأظهار ملعوماتك</span>"; 
+299 "INTRO_PANEL2_TITLE" = "<span class=\"title
+
+\"><strong>تابع</strong> أصدقائك</span>"; 
+300 "INTRO_PANEL2_DESC" = "<span class=\"desc\">من متصل 
+
+؟ من يلعب ؟<br/>قم بأظهار كل اللعابهم والتروفي الي حصلوا 
+
+عليها</span><br/><span class=\"note\"></span>"; 
+301 "INTRO_PANEL3_TITLE" = "<span class=\"title
+
+\"><strong>الحركة</strong> للتحديث</span>"; 
+302 "INTRO_PANEL3_DESC" = "<span class=\"desc\">في كل 
+
+صفحة كل ما عليك فعله هو التحديث عن طريق السحب<br/>اسحب 
+
+القائمة إلى الأعلى للتحديث</span><br/><span class=\"note
+
+\"></span>"; 
+303 "INTRO_PANEL4_TITLE" = "<span class=\"title
+
+\"><strong>الأختصارات</strong> السريعة</span>"; 
+304 "INTRO_PANEL4_DESC" = "<span class=\"desc\">في قائمة 
+
+أصدقائك تستطيع التحريك الى اليمين واليسار للتنقل 
+
+بينهم<ul><li>لأضافتهم للمفضلة</li><li>لأرسال رسالة<span 
+
+class=\"note\"> (فقط للأصدار الكامل)</li></ul></span>"; 
+305 "INTRO_SKIP" = "التخطي"; 
+306 "INTRO_GO" = "أذهب !"; 
+307 "TrophyGuideGoogleURLValue" = 
+
+"http://www.google.com"; 
+308 "◷ %%d%@s" = "◷ %%d%@s"; 
+309 "◷ %%d%@m" = "◷ %%d%@m"; 
+310 "◷ %%d%@h" = "◷ %%d%@h"; 
+311 "◷ %%d%@d" = "◷ %%d%@d"; 
+312 "◷ %%d%@w" = "◷ %%d%@w"; 
+313 "◷ %%d%@mo" = "◷ %%d%@mo"; 
+314 "◷ %%d%@yr" = "◷ %%d%@yr"; 
+315 "MESSAGE_ADD_MEMBER" = "الأعضاء(s) (%lu)"; 
+316 //NETWORK ERRORS 
+317 "ERROR_SIGNIN_NEW_TERMS" = "يجب عليك الموافقة على 
+
+القوانين الجديدة. اضغط لتحويلك إلى القوانين."; 
+318 "NEW_TERMS_REDIRECT" = "جاري تحويلك إلى شبكة 
+
+الأندرويد ..."; 
+319 "LEADERBOARD_SETTINGS_TITLE_FILTERS" = "الترتيب على 
+
+حسب"; 
+320 "LEADERBOARD_SETTINGS_DISPLAY_FAV" = "المفضلة فقط"; 
+321 "MENU_ITEM_MY_PROFILE" = "ملفي"; 
+322 "SettPushMessage" = "الرسائل"; 
+323 "MESSAGE_LOAD_EARLIER" = "تحميل الرسائل القديمة"; 
+324 "HTTPOTHER" = "حصل خطأ. ارجوا المحاولة مرة أخرى."; 
+325 "CLOSE" = "أغلاق"; 
+326 //v2.5 
+327 "SETTINGS_ITEM_THEME" = "الشكل"; 
+328 "THEME_CUSTOMIZE" = "اعدادت شكل التطبيق"; 
+329 "THEME_APPLY" = "تطبيق"; 
+330 "PSN_OFFLINE" = "⚠︎ PSN"; 
+331 "THEME_PREVIEWS" = "المشاهدة قبل التطبيق"; 
+332 "CUSTOMIZE_THEME_DESCRIPTION" = "لتعديل هذا الشكل، 
+
+ثم أضغط على 'تخصيص' . تستطيع اختيار اي لون تريده."; 
+333 "CUSTOMIZE_THEME" = "تخصيص"; 
+334 "SAVE_THEME" = "حفظ"; 
+335 "THEME_SECTION_COLORS" = "اللوان"; 
+336 "THEME_SECTION_ICONS" = "الأيقونات"; 
+337 "NETWORK_TROPHIES_GUIDE" = "ارجوا الأنتظار..."; 
+338 "NETWORK_TROPHIES_GUIDE_SUCCESS" = "تم حفظ الدليل 
+
+:)"; 
+339 "NETWORK_TROPHIES_GUIDE_FAILURE" = "لم يتم حفظ 
+
+الدليل :("; 
+340 "THEME_DOWNLOADED_WITH_FAILURE" = "لم يتم تحميل 
+
+الشكل بنجاح. ارجوا المحاولة لاحقاً."; 
+341 "MESSAGE_ATTACHMENT_LABEL" = "1 ملحق."; 
+342 "MESSAGE_PICKER_ADD_COMMENT" = "اضافة تعليق"; 
+343 "MESSAGE_PICKER_TAKE_PHOTO" = "أخذ صورة"; 
+344 "MESSAGE_PICKER_TAKE_FROM_LIBRARY" = "مكتبة الصور"; 
+345 "MESSAGE_PICKER_SEND_PHOTO" = "ارسال %lu صورة"; 
+346 "MESSAGE_PICKER_SEND_PHOTOS" = "ارسال %lu صور"; 
+347 "TITLEBAR_LASTMESSAGE" = "اخر رسالة %@"; 
+348 "TITLEBAR_X_MEMBERS" = "(%lu) اعضاء"; 
+349 "MESSAGE_NEW_MESSAGE_SUBTITLE" = "اختر عضو او أكثر"; 
+350 "%lu of %lu" = "%lu من %lu"; 
+351 "MESSAGE_SENDING_MULTIPLE" = "ارسال %lu من %lu..."; 
+352 "MESSAGE_ATTACHMENTS" = "الملحقات"; 
+353 "PROFILE_OPTIONS" = "الأعدادات"; 
+354 "ATTACHMENT" = "الصور"; 
+355 "GAME_SETTINGS_FILTER_PLATONLY" = "البلاتين"; 
+356 "GAME_SETTINGS_FILTER_100ONLY" = "100%"; 
+357 "GAME_SETTINGS_FILTER_NOTCOMPLETE" = "غير مكتمل"; 
+358 "LOGIN_EDIT_PASSWORD" = "كلمة مرورك لا تعمل."; 
+359 "LOGIN_EditAccount" = "تعديل حسابك"; 
+360 "LOGIN_EditSubTitle" = "ارجوا منك ادخال كلمة مرور 
+
+حسابك الخاصة بالأندرويد"; 
+361 "LOGIN_EditSubTitle2" = ""; 
+362 "SettCustThemeSaveRoll" = "احفظ في الكاميرا"; 
+363 "SettCustThemeSaved" = "تم"; 
